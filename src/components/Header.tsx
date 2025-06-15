@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Bell, User, Settings } from 'lucide-react';
+import {  Bell, User, Settings, Home } from 'lucide-react';
 import logo from '../../logo.png';
 
 interface HeaderProps {
@@ -35,13 +35,13 @@ const Header: React.FC<HeaderProps> = ({ alertCount }) => {
               )}
             </button>
             
-            <button className="p-2 text-slate-400 hover:text-white transition-colors">
-              <Settings className="h-5 w-5" />
+            <button onClick={() => 
+              window.open('https://ise-aip.intelligentso.com/', '_blank')
+            } className="p-2 text-slate-400 hover:text-white transition-colors">
+              <Home className="h-5 w-5" />
             </button>
             
-            <button className="p-2 text-slate-400 hover:text-white transition-colors">
-              <User className="h-5 w-5" />
-            </button>
+          
           </div>
         </div>
       </div>
