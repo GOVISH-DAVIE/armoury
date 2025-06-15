@@ -11,7 +11,7 @@ export const weapons: Weapon[] = [
     location: 'Rack A-12',
     lastMaintenance: '2024-01-15',
     nextMaintenance: '2024-04-15',
-    assignedTo: 'SGT Johnson',
+    assignedTo: 'SGT Margaret Wambui',
     issuedDate: '2024-01-20'
   },
   {
@@ -23,7 +23,7 @@ export const weapons: Weapon[] = [
     location: 'Rack A-13',
     lastMaintenance: '2024-01-18',
     nextMaintenance: '2024-04-18',
-    assignedTo: 'CPL Martinez',
+    assignedTo: 'CPL Hinga',
     issuedDate: '2024-01-22'
   },
   {
@@ -45,7 +45,7 @@ export const weapons: Weapon[] = [
     location: 'Rack A-15',
     lastMaintenance: '2024-01-12',
     nextMaintenance: '2024-04-12',
-    assignedTo: 'PFC Williams',
+    assignedTo: 'PFC Williams Nyaga',
     issuedDate: '2024-01-25'
   },
   {
@@ -67,7 +67,7 @@ export const weapons: Weapon[] = [
     location: 'Rack A-17',
     lastMaintenance: '2024-01-16',
     nextMaintenance: '2024-04-16',
-    assignedTo: 'SPC Davis',
+    assignedTo: 'SPC Mwangi',
     issuedDate: '2024-01-28'
   },
   {
@@ -89,7 +89,7 @@ export const weapons: Weapon[] = [
     location: 'Rack A-19',
     lastMaintenance: '2024-01-21',
     nextMaintenance: '2024-04-21',
-    assignedTo: 'SGT Thompson',
+    assignedTo: 'SGT Thompson Yego',
     issuedDate: '2024-01-30'
   },
   {
@@ -111,7 +111,7 @@ export const weapons: Weapon[] = [
     location: 'Rack A-21',
     lastMaintenance: '2024-01-13',
     nextMaintenance: '2024-04-13',
-    assignedTo: 'CPL Anderson',
+    assignedTo: 'CPL Deborah',
     issuedDate: '2024-01-26'
   },
 
@@ -259,7 +259,7 @@ export const weapons: Weapon[] = [
     location: 'Rack B-06',
     lastMaintenance: '2024-01-18',
     nextMaintenance: '2024-04-18',
-    assignedTo: 'CPL Martinez'
+    assignedTo: 'CPL Mutahi'
   },
   {
     id: '23',
@@ -280,7 +280,7 @@ export const weapons: Weapon[] = [
     location: 'Rack B-08',
     lastMaintenance: '2024-01-15',
     nextMaintenance: '2024-04-15',
-    assignedTo: 'SGT Rodriguez',
+    assignedTo: 'SGT Muhammed',
     issuedDate: '2024-01-29'
   },
   {
@@ -354,7 +354,7 @@ export const weapons: Weapon[] = [
     location: 'Rack C-02',
     lastMaintenance: '2024-01-14',
     nextMaintenance: '2024-04-14',
-    assignedTo: 'SSG Wilson',
+    assignedTo: 'SSG Wilson Mutambuki',
     issuedDate: '2024-01-27'
   },
   {
@@ -450,7 +450,7 @@ export const weapons: Weapon[] = [
     location: 'Secure Storage',
     lastMaintenance: '2024-01-14',
     nextMaintenance: '2024-07-14',
-    assignedTo: '1LT Parker',
+    assignedTo: '1LT Gakunga',
     issuedDate: '2024-01-31'
   },
   {
@@ -472,7 +472,7 @@ export const weapons: Weapon[] = [
     location: 'Secure Storage',
     lastMaintenance: '2024-01-18',
     nextMaintenance: '2024-07-18',
-    assignedTo: 'CPT Smith',
+    assignedTo: 'CPT Smith Oino',
     issuedDate: '2024-02-01'
   },
   {
@@ -504,7 +504,7 @@ export const weapons: Weapon[] = [
     location: 'Secure Storage',
     lastMaintenance: '2024-01-11',
     nextMaintenance: '2024-07-11',
-    assignedTo: 'MSG Brown',
+    assignedTo: 'MSG Sheila Wanjiku',
     issuedDate: '2024-01-28'
   },
   {
@@ -536,7 +536,7 @@ export const weapons: Weapon[] = [
     location: 'Secure Storage',
     lastMaintenance: '2024-01-17',
     nextMaintenance: '2024-07-17',
-    assignedTo: 'SFC Garcia',
+    assignedTo: 'SFC Garcia M',
     issuedDate: '2024-02-02'
   },
 
@@ -610,7 +610,7 @@ export const weapons: Weapon[] = [
     location: 'Rack D-03',
     lastMaintenance: '2024-01-13',
     nextMaintenance: '2024-04-13',
-    assignedTo: 'PV2 Johnson',
+    assignedTo: 'PV2 Omondi',
     issuedDate: '2024-02-03'
   },
   {
@@ -871,7 +871,7 @@ export const activities: Activity[] = [
     timestamp: '2024-02-05T09:30:00Z',
     type: 'maintenance',
     description: 'M240B moved to repair shop for barrel replacement',
-    personnel: 'SPC Thompson',
+    personnel: 'SPC Karanja',
     weaponId: 'M240-009876',
     status: 'critical'
   },
@@ -879,8 +879,8 @@ export const activities: Activity[] = [
     id: '6',
     timestamp: '2024-02-05T08:15:00Z',
     type: 'issue',
-    description: 'M249 SAW issued to CPL Martinez',
-    personnel: 'CPL Martinez',
+    description: 'M249 SAW issued to CPL Kimani',
+    personnel: 'CPL Kimani',
     weaponId: 'M249-005679',
     status: 'normal'
   },

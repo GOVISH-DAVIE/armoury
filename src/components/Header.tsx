@@ -1,5 +1,6 @@
 import React from 'react';
-import { Shield, Bell, User, Settings } from 'lucide-react';
+import {  Bell, User, Settings } from 'lucide-react';
+import logo from '../../logo.png';
 
 interface HeaderProps {
   alertCount: number;
@@ -10,18 +11,17 @@ const Header: React.FC<HeaderProps> = ({ alertCount }) => {
     <header className="bg-slate-800 border-b border-slate-700 px-6 py-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <div className="flex items-center space-x-2">
-            <Shield className="h-8 w-8 text-emerald-500" />
+          <div className="flex items-center space-x-2  ">
+            <img src={logo} alt="Armory Logo" className="w-[100px]" />
             <div>
               <h1 className="text-2xl font-bold text-white">Armory Dashboard</h1>
-              <p className="text-sm text-slate-400">Real-time Operations Center</p>
+              {/* <p className="text-sm text-slate-400">Real-time Operations Center</p> */}
             </div>
           </div>
         </div>
         
         <div className="flex items-center space-x-4">
-          <div className="text-right text-sm text-slate-300">
-            <p>Current User: SSG Williams</p>
+          <div className="text-right text-sm text-slate-300"> 
             <p>Last Update: {new Date().toLocaleTimeString()}</p>
           </div>
           
